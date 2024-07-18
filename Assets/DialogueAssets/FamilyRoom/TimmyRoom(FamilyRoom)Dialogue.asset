@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 00328e3d317766b40965ccee644abab6, type: 3}
-  m_Name: Dialogue1
+  m_Name: TimmyRoom(FamilyRoom)Dialogue
   m_EditorClassIdentifier: 
   entries:
   - speakerName: Timmy
-    dialogueText: This is my maths homework, I can't believe used my family photo
-      as a bookmark for one of the topics......
-  - speakerName: Timmy
-    dialogueText: Do i grab the photo?
+    dialogueText: I do not have a reason to go back to my room, especially when the
+      tablelamp is broken...
+    typingSound: {fileID: 8300000, guid: e0e740bf85afefd40a86de388c603364, type: 3}

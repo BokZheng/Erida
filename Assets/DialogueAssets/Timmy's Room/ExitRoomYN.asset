@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2165bddab7b14814f856ec199871c41c, type: 3}
-  m_Name: New Confirmation Dialogue
+  m_Name: ExitRoomYN
   m_EditorClassIdentifier: 
   speakerName: Timmy
   dialogueText: I better ask my parents how do i fix this stupid lamp
+  typingSound: {fileID: 8300000, guid: e0e740bf85afefd40a86de388c603364, type: 3}

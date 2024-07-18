@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 45
       height: 114
-    spriteID: d9b88312d8974db4fae5d5a14bd4777f
+    spriteID: 1df024666815b6e43924d7fa0e71841f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 126
       width: 45
       height: 114
-    spriteID: 70d7771221601ea408e292a875e8081c
+    spriteID: 77639fbd854375d42ab320c7756d8107
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 157
       height: 114
-    spriteID: 5b679bda3dc68d94095528df2c0d0667
+    spriteID: 29551a866b9afd74ab33f1e608a69430
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 126
       width: 45
       height: 114
-    spriteID: d1c626d9a7cf97d44be335e6d22d9dfc
+    spriteID: 5d84b5b3d80f37342948535ec20df073
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -215,7 +215,7 @@ ScriptedImporter:
         y: 181
         width: 45
         height: 114
-      spriteId: d9b88312d8974db4fae5d5a14bd4777f
+      spriteId: 1df024666815b6e43924d7fa0e71841f
     - name: Timmy(Dark)_Frame_1
       frameIndex: 1
       cellRect:
@@ -223,7 +223,7 @@ ScriptedImporter:
         y: 181
         width: 45
         height: 114
-      spriteId: 70d7771221601ea408e292a875e8081c
+      spriteId: 77639fbd854375d42ab320c7756d8107
     - name: Timmy(Dark)_Frame_2
       frameIndex: 2
       cellRect:
@@ -231,7 +231,7 @@ ScriptedImporter:
         y: 181
         width: 157
         height: 114
-      spriteId: 5b679bda3dc68d94095528df2c0d0667
+      spriteId: 29551a866b9afd74ab33f1e608a69430
     - name: Timmy(Dark)_Frame_3
       frameIndex: 3
       cellRect:
@@ -239,7 +239,7 @@ ScriptedImporter:
         y: 181
         width: 45
         height: 114
-      spriteId: d1c626d9a7cf97d44be335e6d22d9dfc
+      spriteId: 5d84b5b3d80f37342948535ec20df073
     linkedCells: []
     parentIndex: -1
   platformSettings: []

@@ -15,3 +15,4 @@ MonoBehaviour:
   entries:
   - speakerName: Timmy
     dialogueText: It's all my books, i study so much it hurts my eyes sometimes...
+    typingSound: {fileID: 8300000, guid: e0e740bf85afefd40a86de388c603364, type: 3}
