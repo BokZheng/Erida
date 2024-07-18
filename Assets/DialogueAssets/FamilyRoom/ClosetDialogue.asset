@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00328e3d317766b40965ccee644abab6, type: 3}
+  m_Name: ClosetDialogue
+  m_EditorClassIdentifier: 
+  entries:
+  - speakerName: Timmy
+    dialogueText: It's my parent's closet, its's crazy to think that they have such
+      a little amount of clothes...
+    typingSound: {fileID: 8300000, guid: e0e740bf85afefd40a86de388c603364, type: 3}

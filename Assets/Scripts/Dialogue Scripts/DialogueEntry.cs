@@ -6,6 +6,6 @@ using UnityEngine;
 public class DialogueEntry
 {
     public string speakerName;
-    [TextArea(3, 10)]
     public string dialogueText;
+    public AudioClip typingSound;
 }

@@ -1,0 +1,1900 @@
+fileFormatVersion: 2
+guid: 1e7dcf23a0397444dbbc3d6783f4d97c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Puzzle_Frame_0
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 424
+      height: 284
+    spriteID: 9398184ce65b44649adad292ee78b689
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Puzzle_Frame_1
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 436
+      y: 4
+      width: 424
+      height: 284
+    spriteID: 5d27642924c86af478be40573fddde44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 436, y: 4}
+  - name: Puzzle_Frame_2
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 868
+      y: 4
+      width: 424
+      height: 284
+    spriteID: d2e77f46dafe08d4fa194703d5789108
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 868, y: 4}
+  - name: Puzzle_Frame_3
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1300
+      y: 4
+      width: 424
+      height: 284
+    spriteID: 5bd69229654207a498e72adea4ed0d40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1300, y: 4}
+  - name: Puzzle_Frame_4
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1732
+      y: 4
+      width: 424
+      height: 284
+    spriteID: dc3b8b9ad9fb06f4e8b15338b1b6db0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1732, y: 4}
+  - name: Puzzle_Frame_5
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2164
+      y: 4
+      width: 424
+      height: 284
+    spriteID: 8e27119f2a82c6a49bd254960db75f07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2164, y: 4}
+  - name: Puzzle_Frame_6
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2596
+      y: 4
+      width: 424
+      height: 284
+    spriteID: fa64f03ecf4ac27478fd086cd8c47f8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2596, y: 4}
+  - name: Puzzle_Frame_7
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3028
+      y: 4
+      width: 424
+      height: 284
+    spriteID: 004b2af1435ae8b42a7929d9cec8decb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3028, y: 4}
+  - name: Puzzle_Frame_8
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3460
+      y: 4
+      width: 424
+      height: 284
+    spriteID: 9f088225ba79330438da99f125671756
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3460, y: 4}
+  - name: Puzzle_Frame_9
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 296
+      width: 424
+      height: 284
+    spriteID: af6465a04d731f140aecbeeb05280d3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 296}
+  - name: Puzzle_Frame_10
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 436
+      y: 296
+      width: 424
+      height: 284
+    spriteID: 0537104514a5f8748b41c5065d3170b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 436, y: 296}
+  - name: Puzzle_Frame_11
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 868
+      y: 296
+      width: 424
+      height: 284
+    spriteID: 0328ac7681eb6eb418bbf7fc870e0c3f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 868, y: 296}
+  - name: Puzzle_Frame_12
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1300
+      y: 296
+      width: 424
+      height: 284
+    spriteID: f0aaba60853f42c468644455cf70f09c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1300, y: 296}
+  - name: Puzzle_Frame_13
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1732
+      y: 296
+      width: 424
+      height: 284
+    spriteID: 7a91f201abadc814eac56105f6c9fba2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1732, y: 296}
+  - name: Puzzle_Frame_14
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2164
+      y: 296
+      width: 424
+      height: 284
+    spriteID: 24671396abf50964095595bd6375eec8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2164, y: 296}
+  - name: Puzzle_Frame_15
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2596
+      y: 296
+      width: 424
+      height: 284
+    spriteID: 19459dd7a1ace0d448e323d9b2140705
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2596, y: 296}
+  - name: Puzzle_Frame_16
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3028
+      y: 296
+      width: 424
+      height: 284
+    spriteID: ae8386330bf8f6c4aba0483a3e6f7164
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3028, y: 296}
+  - name: Puzzle_Frame_17
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3460
+      y: 296
+      width: 424
+      height: 284
+    spriteID: 2528b6b619b24744da73e7922a20b4e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3460, y: 296}
+  - name: Puzzle_Frame_18
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 588
+      width: 424
+      height: 284
+    spriteID: fdb4b0081bdb2f84a85d1b3107f35189
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 588}
+  - name: Puzzle_Frame_19
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 436
+      y: 588
+      width: 424
+      height: 284
+    spriteID: 230db138ad1dce148a28cac1743d9c7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 436, y: 588}
+  - name: Puzzle_Frame_20
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 868
+      y: 588
+      width: 424
+      height: 284
+    spriteID: 0121b0237b3bad640a21876488c88a18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 868, y: 588}
+  - name: Puzzle_Frame_21
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1300
+      y: 588
+      width: 424
+      height: 284
+    spriteID: de2ea7d511c21104bb71918a51ac5867
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1300, y: 588}
+  - name: Puzzle_Frame_22
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1732
+      y: 588
+      width: 424
+      height: 284
+    spriteID: 18392c67b37197d4b81240f85f10e973
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1732, y: 588}
+  - name: Puzzle_Frame_23
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2164
+      y: 588
+      width: 424
+      height: 284
+    spriteID: 0636d1e304db4c347b943d41fa17b8c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2164, y: 588}
+  - name: Puzzle_Frame_24
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2596
+      y: 588
+      width: 424
+      height: 284
+    spriteID: d7accae9065db8448a670d1561a12a79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2596, y: 588}
+  - name: Puzzle_Frame_25
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3028
+      y: 588
+      width: 424
+      height: 284
+    spriteID: 7c7db7a999e45524584c19db5b5bf511
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3028, y: 588}
+  - name: Puzzle_Frame_26
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3460
+      y: 588
+      width: 424
+      height: 284
+    spriteID: 31a7d3a41bc66894ba50d4e12ce28579
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3460, y: 588}
+  - name: Puzzle_Frame_27
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 880
+      width: 424
+      height: 284
+    spriteID: 9450c4c2ec2416941b8fb597ee179201
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 880}
+  - name: Puzzle_Frame_28
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 436
+      y: 880
+      width: 424
+      height: 284
+    spriteID: 9c6bafcdbfa57d5429ab1e564dfafad7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 436, y: 880}
+  - name: Puzzle_Frame_29
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 868
+      y: 880
+      width: 424
+      height: 284
+    spriteID: 9edac52b46deef941a39ecbdc9536c2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 868, y: 880}
+  - name: Puzzle_Frame_30
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1300
+      y: 880
+      width: 424
+      height: 284
+    spriteID: 474424cecc8763a4c91e6f9b35dfe316
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1300, y: 880}
+  - name: Puzzle_Frame_31
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1732
+      y: 880
+      width: 424
+      height: 284
+    spriteID: e2b07b876a236f24dbfc589fe3938b8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1732, y: 880}
+  - name: Puzzle_Frame_32
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2164
+      y: 880
+      width: 424
+      height: 284
+    spriteID: 1fb2bf3957ec6a246bcd92cf45222ff8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2164, y: 880}
+  - name: Puzzle_Frame_33
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2596
+      y: 880
+      width: 424
+      height: 284
+    spriteID: c44da82f2b5482445a76d5fdbe32a43a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2596, y: 880}
+  - name: Puzzle_Frame_34
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3028
+      y: 880
+      width: 424
+      height: 284
+    spriteID: bd9098e6739f5dd4ca6d9f7c22e62d0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3028, y: 880}
+  - name: Puzzle_Frame_35
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3460
+      y: 880
+      width: 424
+      height: 284
+    spriteID: 0737f2fa0c5c42a488c60c2f77c6176a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3460, y: 880}
+  - name: Puzzle_Frame_36
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1172
+      width: 424
+      height: 284
+    spriteID: f5bf4b4150587854c862514d71e0734d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1172}
+  - name: Puzzle_Frame_37
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 436
+      y: 1172
+      width: 424
+      height: 284
+    spriteID: 9e616e9aae5db7e4fae10f891f46af5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 436, y: 1172}
+  - name: Puzzle_Frame_38
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 868
+      y: 1172
+      width: 424
+      height: 284
+    spriteID: f968bfb97a0d403469a7c5ec78940666
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 868, y: 1172}
+  - name: Puzzle_Frame_39
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1300
+      y: 1172
+      width: 424
+      height: 284
+    spriteID: 315d8e69126c1f644a038f687d4e13bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1300, y: 1172}
+  - name: Puzzle_Frame_40
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1732
+      y: 1172
+      width: 424
+      height: 284
+    spriteID: 559699abcc000f444b5cfe7aa101c135
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1732, y: 1172}
+  - name: Puzzle_Frame_41
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2164
+      y: 1172
+      width: 424
+      height: 284
+    spriteID: a40ae6254048d5341bead07db2ae63e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2164, y: 1172}
+  - name: Puzzle_Frame_42
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2596
+      y: 1172
+      width: 424
+      height: 284
+    spriteID: 948755af70ea1634baa280222f47c837
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2596, y: 1172}
+  - name: Puzzle_Frame_43
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3028
+      y: 1172
+      width: 424
+      height: 284
+    spriteID: 3573e3417bb95634a817be6bcb44ba9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3028, y: 1172}
+  - name: Puzzle_Frame_44
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3460
+      y: 1172
+      width: 424
+      height: 284
+    spriteID: 43d8da74223c7a147a0393909f65ab17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3460, y: 1172}
+  - name: Puzzle_Frame_45
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1464
+      width: 424
+      height: 284
+    spriteID: 7c914bda7b461b24c971c6c3665d9c95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1464}
+  - name: Puzzle_Frame_46
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 436
+      y: 1464
+      width: 424
+      height: 284
+    spriteID: 50069e9d83f06ed42bf6223923f742f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 436, y: 1464}
+  - name: Puzzle_Frame_47
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 868
+      y: 1464
+      width: 424
+      height: 284
+    spriteID: 1e8bfe88d10cdde47868464410c69a25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 868, y: 1464}
+  - name: Puzzle_Frame_48
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1300
+      y: 1464
+      width: 424
+      height: 284
+    spriteID: f3972a11da2f84444b0fb7ae45250ddc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1300, y: 1464}
+  - name: Puzzle_Frame_49
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1732
+      y: 1464
+      width: 424
+      height: 284
+    spriteID: 7ae27397cf2a58243a19270edc5522e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1732, y: 1464}
+  - name: Puzzle_Frame_50
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2164
+      y: 1464
+      width: 424
+      height: 284
+    spriteID: 50b95c9809274ca4f95c7cbac3dc9e0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2164, y: 1464}
+  - name: Puzzle_Frame_51
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2596
+      y: 1464
+      width: 424
+      height: 284
+    spriteID: 51583b8ca196b434c9e3d548ab9be466
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2596, y: 1464}
+  - name: Puzzle_Frame_52
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3028
+      y: 1464
+      width: 424
+      height: 284
+    spriteID: 5b58cf10f6792b24f8c36a43ed6a3e07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3028, y: 1464}
+  - name: Puzzle_Frame_53
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3460
+      y: 1464
+      width: 424
+      height: 284
+    spriteID: 2febdb08cce29384eba59b82dd39acdb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3460, y: 1464}
+  - name: Puzzle_Frame_54
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1756
+      width: 424
+      height: 284
+    spriteID: 1f038afda36fdec4a8f32c873ae5d2ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1756}
+  - name: Puzzle_Frame_55
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 436
+      y: 1756
+      width: 424
+      height: 284
+    spriteID: d80003019c296154eba4e5ba21dc12b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 436, y: 1756}
+  - name: Puzzle_Frame_56
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 868
+      y: 1756
+      width: 424
+      height: 284
+    spriteID: 203885e510eed224c9b4952361ac1a8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 868, y: 1756}
+  - name: Puzzle_Frame_57
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1300
+      y: 1756
+      width: 424
+      height: 284
+    spriteID: 717cb6873d0281f4dbffa6cc42bc7853
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1300, y: 1756}
+  - name: Puzzle_Frame_58
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1732
+      y: 1756
+      width: 424
+      height: 284
+    spriteID: 4e7fbf2284281124aa7fe8df82012e0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1732, y: 1756}
+  - name: Puzzle_Frame_59
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2164
+      y: 1756
+      width: 424
+      height: 284
+    spriteID: 19ea6d72b65eea64fbc61000244a908f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2164, y: 1756}
+  - name: Puzzle_Frame_60
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2596
+      y: 1756
+      width: 424
+      height: 284
+    spriteID: 0f1b90a2940314e45a851eb5fe5f4c45
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2596, y: 1756}
+  - name: Puzzle_Frame_61
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3028
+      y: 1756
+      width: 424
+      height: 284
+    spriteID: 68908f4a7b568be4a8c5754cff793bdf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3028, y: 1756}
+  - name: Puzzle_Frame_62
+    originalName: 
+    pivot: {x: 0.49410376, y: -0.03169014}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3460
+      y: 1756
+      width: 424
+      height: 284
+    spriteID: f45440d616d9d624f85b45a7861e8af3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3460, y: 1756}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1430312522
+    name: Puzzle
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Puzzle_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 9398184ce65b44649adad292ee78b689
+    - name: Puzzle_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 5d27642924c86af478be40573fddde44
+    - name: Puzzle_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: d2e77f46dafe08d4fa194703d5789108
+    - name: Puzzle_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 5bd69229654207a498e72adea4ed0d40
+    - name: Puzzle_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: dc3b8b9ad9fb06f4e8b15338b1b6db0b
+    - name: Puzzle_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 8e27119f2a82c6a49bd254960db75f07
+    - name: Puzzle_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: fa64f03ecf4ac27478fd086cd8c47f8e
+    - name: Puzzle_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 004b2af1435ae8b42a7929d9cec8decb
+    - name: Puzzle_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 9f088225ba79330438da99f125671756
+    - name: Puzzle_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: af6465a04d731f140aecbeeb05280d3d
+    - name: Puzzle_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 0537104514a5f8748b41c5065d3170b7
+    - name: Puzzle_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 0328ac7681eb6eb418bbf7fc870e0c3f
+    - name: Puzzle_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: f0aaba60853f42c468644455cf70f09c
+    - name: Puzzle_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 7a91f201abadc814eac56105f6c9fba2
+    - name: Puzzle_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 24671396abf50964095595bd6375eec8
+    - name: Puzzle_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 19459dd7a1ace0d448e323d9b2140705
+    - name: Puzzle_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: ae8386330bf8f6c4aba0483a3e6f7164
+    - name: Puzzle_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 2528b6b619b24744da73e7922a20b4e0
+    - name: Puzzle_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: fdb4b0081bdb2f84a85d1b3107f35189
+    - name: Puzzle_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 230db138ad1dce148a28cac1743d9c7a
+    - name: Puzzle_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 0121b0237b3bad640a21876488c88a18
+    - name: Puzzle_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: de2ea7d511c21104bb71918a51ac5867
+    - name: Puzzle_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 18392c67b37197d4b81240f85f10e973
+    - name: Puzzle_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 0636d1e304db4c347b943d41fa17b8c7
+    - name: Puzzle_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: d7accae9065db8448a670d1561a12a79
+    - name: Puzzle_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 7c7db7a999e45524584c19db5b5bf511
+    - name: Puzzle_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 31a7d3a41bc66894ba50d4e12ce28579
+    - name: Puzzle_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 9450c4c2ec2416941b8fb597ee179201
+    - name: Puzzle_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 9c6bafcdbfa57d5429ab1e564dfafad7
+    - name: Puzzle_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 9edac52b46deef941a39ecbdc9536c2f
+    - name: Puzzle_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 474424cecc8763a4c91e6f9b35dfe316
+    - name: Puzzle_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: e2b07b876a236f24dbfc589fe3938b8a
+    - name: Puzzle_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 1fb2bf3957ec6a246bcd92cf45222ff8
+    - name: Puzzle_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: c44da82f2b5482445a76d5fdbe32a43a
+    - name: Puzzle_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: bd9098e6739f5dd4ca6d9f7c22e62d0a
+    - name: Puzzle_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 0737f2fa0c5c42a488c60c2f77c6176a
+    - name: Puzzle_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: f5bf4b4150587854c862514d71e0734d
+    - name: Puzzle_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 9e616e9aae5db7e4fae10f891f46af5e
+    - name: Puzzle_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: f968bfb97a0d403469a7c5ec78940666
+    - name: Puzzle_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 315d8e69126c1f644a038f687d4e13bf
+    - name: Puzzle_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 559699abcc000f444b5cfe7aa101c135
+    - name: Puzzle_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: a40ae6254048d5341bead07db2ae63e4
+    - name: Puzzle_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 948755af70ea1634baa280222f47c837
+    - name: Puzzle_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 3573e3417bb95634a817be6bcb44ba9a
+    - name: Puzzle_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 43d8da74223c7a147a0393909f65ab17
+    - name: Puzzle_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 7c914bda7b461b24c971c6c3665d9c95
+    - name: Puzzle_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 50069e9d83f06ed42bf6223923f742f8
+    - name: Puzzle_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 1e8bfe88d10cdde47868464410c69a25
+    - name: Puzzle_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: f3972a11da2f84444b0fb7ae45250ddc
+    - name: Puzzle_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 7ae27397cf2a58243a19270edc5522e2
+    - name: Puzzle_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 50b95c9809274ca4f95c7cbac3dc9e0d
+    - name: Puzzle_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 51583b8ca196b434c9e3d548ab9be466
+    - name: Puzzle_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 5b58cf10f6792b24f8c36a43ed6a3e07
+    - name: Puzzle_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 2febdb08cce29384eba59b82dd39acdb
+    - name: Puzzle_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 1f038afda36fdec4a8f32c873ae5d2ff
+    - name: Puzzle_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: d80003019c296154eba4e5ba21dc12b8
+    - name: Puzzle_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 203885e510eed224c9b4952361ac1a8c
+    - name: Puzzle_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 717cb6873d0281f4dbffa6cc42bc7853
+    - name: Puzzle_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 4e7fbf2284281124aa7fe8df82012e0b
+    - name: Puzzle_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 19ea6d72b65eea64fbc61000244a908f
+    - name: Puzzle_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 0f1b90a2940314e45a851eb5fe5f4c45
+    - name: Puzzle_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: 68908f4a7b568be4a8c5754cff793bdf
+    - name: Puzzle_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 25
+        y: 9
+        width: 424
+        height: 284
+      spriteId: f45440d616d9d624f85b45a7861e8af3
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 469, y: 327}

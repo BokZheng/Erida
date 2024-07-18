@@ -1,0 +1,4 @@
+repository "EridaAlpha@WilzBZ@cloud"
+  path "/"
+    br "/main"
+    co "/main"

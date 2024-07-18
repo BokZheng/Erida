@@ -6,6 +6,6 @@ using UnityEngine;
 public class ConfirmationDialogue : ScriptableObject
 {
     public string speakerName;
-    [TextArea(3, 10)]
     public string dialogueText;
+    public AudioClip typingSound;
 }

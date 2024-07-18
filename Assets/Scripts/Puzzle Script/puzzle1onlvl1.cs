@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.WSA;
+
 
 public class puzzle1onlvl1 : MonoBehaviour
 {
@@ -27,7 +27,9 @@ public class puzzle1onlvl1 : MonoBehaviour
 
     void ActivatePuzzle()
     {
-
+        Maincamera.gameObject.SetActive(false);
+        Puzzlecamera.gameObject.SetActive(true);
+        Mainpuzzle.SetActive(true);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
