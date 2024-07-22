@@ -9,6 +9,7 @@ public class P1Selection : MonoBehaviour
 {
     public GameObject[] leftSelection;
     public GameObject[] rightSelection;
+    public GameObject exitCarpet;
 
     public Animator slcAnimation;
     public Animator stringAnimation1;
@@ -21,6 +22,7 @@ public class P1Selection : MonoBehaviour
     private int currentRightSelection = 0;
     private bool isSelectingRight = false;
     private bool isStringAnimationPlaying = false;
+    private bool isCombinationTrue = false;
 
     private List<string> activeConnections = new List<string>(); // List to keep track of active connections
 
@@ -28,7 +30,9 @@ public class P1Selection : MonoBehaviour
     {
         PlayerMovement = GetComponent<PlayerMovement>();
         UpdateIndicator();
-        EnablePlayerMovement(false); // Disable player movement at the start
+        EnablePlayerMovement(false); 
+        exitCarpet.SetActive(false);
+        isCombinationTrue = false;
     }
 
     void Update()
@@ -143,6 +147,12 @@ public class P1Selection : MonoBehaviour
         isSelectingRight = false; // Ensure we go back to left selection
         UpdateIndicator(); // Return to updating indicator
 
+        if (isCombinationTrue = false)
+        {
+            CheckCombination();
+        }
+        CheckCombination();
+
         // Stop the right selection animation explicitly
         //StopRightSelectionAnimation();
     }
@@ -163,7 +173,7 @@ public class P1Selection : MonoBehaviour
         isStringAnimationPlaying = false;
         isSelectingRight = false;
         UpdateIndicator();
-        EnablePlayerMovement(true); // Enable player movement
+       
     }
 
     void EnablePlayerMovement(bool enable)
@@ -171,6 +181,14 @@ public class P1Selection : MonoBehaviour
         if (PlayerMovement != null)
         {
             PlayerMovement.enabled = enable;
+        }
+    }
+
+    void CheckCombination()
+    {
+        if (activeConnections.Contains("s11") && activeConnections.Contains("s22") && activeConnections.Contains("s33"))
+        {
+            exitCarpet.SetActive(true);
         }
     }
 }
