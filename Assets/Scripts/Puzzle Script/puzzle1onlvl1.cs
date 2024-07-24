@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class puzzle1onlvl1 : MonoBehaviour
 {
     public Camera Maincamera;

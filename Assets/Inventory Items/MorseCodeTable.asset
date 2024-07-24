@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7570f37da4a12954daed693f3fb0edab, type: 3}
+  m_Name: MorseCodeTable
+  m_EditorClassIdentifier: 
+  itemName: Morse Code Table
+  icon: {fileID: 6127213181915050060, guid: 615785b596cfeaf4489f8f9244078978, type: 3}

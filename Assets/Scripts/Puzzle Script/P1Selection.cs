@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-
 public class P1Selection : MonoBehaviour
 {
     public GameObject[] leftSelection;
