@@ -15,8 +15,6 @@ public class P1Selection : MonoBehaviour
     public Animator stringAnimation2;
     public Animator stringAnimation3;
 
-    public MonoBehaviour PlayerMovement; 
-
     private int currentLeftSelection = 0;
     private int currentRightSelection = 0;
     private bool isSelectingRight = false;
@@ -27,24 +25,24 @@ public class P1Selection : MonoBehaviour
 
     void Start()
     {
-        PlayerMovement = GetComponent<PlayerMovement>();
+        
         UpdateIndicator();
-        EnablePlayerMovement(false); 
+        
         exitCarpet.SetActive(false);
         isCombinationTrue = false;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            ExitSelectionMode();
-            return;
-        }
 
         if (!isStringAnimationPlaying)
         {
             HandleInput();
+        }
+        if (isCombinationTrue == true)
+        {
+            Debug.Log(message: "comb true");
+            CheckCombination();
         }
     }
 
@@ -83,6 +81,7 @@ public class P1Selection : MonoBehaviour
             else if (Input.GetKeyDown(KeyCode.E))
             {
                 StartCoroutine(PlayStringAnimation());
+                ExitSelectionMode();
             }
         }
     }
@@ -117,6 +116,18 @@ public class P1Selection : MonoBehaviour
         isStringAnimationPlaying = true;
         string stringAnimationName = "s" + (currentLeftSelection + 1) + (currentRightSelection + 1);
 
+        if (!activeConnections.Contains(stringAnimationName))
+        {
+            activeConnections.Add(stringAnimationName);
+            Debug.Log(stringAnimationName);
+        }
+        if (activeConnections.Contains("s31") && activeConnections.Contains("s12") && activeConnections.Contains("s23"))
+        {
+            exitCarpet.SetActive(true);
+        }
+
+
+
         // Play animations for all three animators
         stringAnimation1.Play(stringAnimationName);
         stringAnimation2.Play(stringAnimationName);
@@ -130,27 +141,18 @@ public class P1Selection : MonoBehaviour
             stringAnimation2.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f &&
             stringAnimation3.GetCurrentAnimatorStateInfo(0).IsName(stringAnimationName) &&
             stringAnimation3.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f);
-
-        // Add connection to active connections if not already present
-        if (!activeConnections.Contains(stringAnimationName))
-        {
-            activeConnections.Add(stringAnimationName);
-        }
+        
 
         // Freeze animations at the end
         FreezeAnimations(stringAnimation1, stringAnimationName);
         FreezeAnimations(stringAnimation2, stringAnimationName);
         FreezeAnimations(stringAnimation3, stringAnimationName);
 
-        isStringAnimationPlaying = false;
-        isSelectingRight = false; // Ensure we go back to left selection
-        UpdateIndicator(); // Return to updating indicator
+        //isStringAnimationPlaying = false;
+        //isSelectingRight = false; // Ensure we go back to left selection
+        //UpdateIndicator(); // Return to updating indicator
 
-        if (isCombinationTrue = false)
-        {
-            CheckCombination();
-        }
-        CheckCombination();
+        
 
         // Stop the right selection animation explicitly
         //StopRightSelectionAnimation();
@@ -175,13 +177,7 @@ public class P1Selection : MonoBehaviour
        
     }
 
-    void EnablePlayerMovement(bool enable)
-    {
-        if (PlayerMovement != null)
-        {
-            PlayerMovement.enabled = enable;
-        }
-    }
+    
 
     void CheckCombination()
     {

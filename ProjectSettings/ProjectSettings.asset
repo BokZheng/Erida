@@ -896,11 +896,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: edb7806d-d6aa-4211-86ab-6b1feef1c733
+  cloudProjectId: abd77b85-9326-4fdd-8d1b-d1fdc25ebe63
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: EridaDemo1
-  organizationId: vaporiiise
+  organizationId: wilzbz
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

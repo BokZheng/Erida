@@ -7,11 +7,12 @@ public class puzzle1onlvl1 : MonoBehaviour
     public Camera Maincamera;
     public Camera Puzzlecamera;
     public GameObject Mainpuzzle;
-
+    public GameObject Player;
     public bool isPlayerinzone;
 
     private void Start()
     {
+        Player.GetComponent<PlayerMovement>();
         Puzzlecamera.gameObject.SetActive(false);
         Mainpuzzle.SetActive(false);
     }
@@ -21,10 +22,12 @@ public class puzzle1onlvl1 : MonoBehaviour
         if (isPlayerinzone && Input.GetKeyDown(KeyCode.E))
         {
             ActivatePuzzle();
+            Player.SetActive(false );
         }
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             DeactivatePuzzle();
+            Player.SetActive(true );
         }
     }
     void DeactivatePuzzle()

@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D myBody;
     public Animator anim;
+    public bool isWalking = true;
     public bool isWalkingDown = false;
     public bool isWalkingLeft = false;
     public bool isWalkingRight = false;
@@ -27,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
  
     void Update()
     {
+        if(isWalking == true)
         if (Input.GetKey(KeyCode.S))
         {
             isWalkingDown = true;
