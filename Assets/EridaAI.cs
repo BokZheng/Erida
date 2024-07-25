@@ -35,17 +35,16 @@ public class EridaAI : MonoBehaviour
 
             if (distanceToPlayer > stopChaseDistance)
             {
-                isChasing = false;
-                Patrol();
+                StopChasing();
             }
             else
             {
-                agent.SetDestination(player.position);
+                StartChasing();
             }
         }
         else
         {
-            Patrol();
+            StopChasing();
         }
     }
 

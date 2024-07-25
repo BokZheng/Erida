@@ -11,6 +11,7 @@ public class Inventory : MonoBehaviour
     public Transform slotParent;
 
     private InventorySlot[] slots;
+    private Item item;
 
     public void Start()
     {
@@ -22,11 +23,12 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public void AddItem(Item item)
+    public void AddItem(Item newItem)
     {
+        item = newItem;
         if (items.Count < maxSlots)
         {
-            items.Add(item);
+            items.Add(newItem);
             UpdateUI();
         }
         else
