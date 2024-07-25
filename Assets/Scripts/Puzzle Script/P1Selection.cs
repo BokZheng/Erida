@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
-using UnityEngine.WSA;
 
 public class P1Selection : MonoBehaviour
 {
@@ -151,7 +150,7 @@ public class P1Selection : MonoBehaviour
         {
             CheckCombination();
         }
-      
+        CheckCombination();
 
         // Stop the right selection animation explicitly
         //StopRightSelectionAnimation();

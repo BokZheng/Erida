@@ -1,0 +1,44 @@
+[
+  {
+    "MountId": "56e62dd7-241f-41e9-8c6b-dd4ca4513e62",
+    "AncestorCsetIds": [
+      13
+    ],
+    "SourceCsetId": 14,
+    "DestinationCsetId": 13,
+    "FileConflicts": [
+      {
+        "Path": "/Assets/Scenes/FamilyRoom.unity",
+        "ItemId": 2628,
+        "ParentItemId": 1820,
+        "BaseRevId": 4099,
+        "SourceRevId": 4255,
+        "DestinationRevId": 4112
+      },
+      {
+        "Path": "/Assets/Scripts/Puzzle Script/puzzle1onlvl1.cs",
+        "ItemId": 3576,
+        "ParentItemId": 2676,
+        "BaseRevId": 1415,
+        "SourceRevId": 4259,
+        "DestinationRevId": 1415
+      },
+      {
+        "Path": "/Assets/Scripts/Puzzle Script/P1Selection.cs",
+        "ItemId": 3574,
+        "ParentItemId": 2676,
+        "BaseRevId": 4039,
+        "SourceRevId": 4258,
+        "DestinationRevId": 4114
+      },
+      {
+        "Path": "/Assets/Scenes/LV1Dream.unity",
+        "ItemId": 2630,
+        "ParentItemId": 1820,
+        "BaseRevId": 4089,
+        "SourceRevId": 4113,
+        "DestinationRevId": 4089
+      }
+    ]
+  }
+]
