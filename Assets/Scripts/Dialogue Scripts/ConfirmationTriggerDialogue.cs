@@ -7,38 +7,31 @@ public class ConfirmationTriggerDialogue : MonoBehaviour
 {
     public ConfirmationDialogue confirmationDialogue;
     private bool isPlayerInRange = false;
+    public int scenes = 3;
 
     void Update()
     {
-        // Check for player interaction to trigger confirmation dialogue
-        if (isPlayerInRange && Input.GetKeyDown(KeyCode.F))
+        if (isPlayerInRange && Input.GetKeyDown(KeyCode.E))
         {
             StartConfirmationDialogue();
         }
     }
 
-    void StartConfirmationDialogue()
+    private void StartConfirmationDialogue()
     {
         DialogueManager dialogueManager = FindObjectOfType<DialogueManager>();
         if (dialogueManager != null)
         {
-            dialogueManager.LockPlayerMovement(true);
             dialogueManager.StartConfirmationDialogue(confirmationDialogue, OnConfirmationDialogueEnd);
         }
     }
 
-    void OnConfirmationDialogueEnd()
+    private void OnConfirmationDialogueEnd()
     {
-        // Proceed to next scene if confirmed
-        SceneManager.LoadScene("NextSceneName"); // Replace "NextSceneName" with your scene name
-        DialogueManager dialogueManager = FindObjectOfType<DialogueManager>();
-        if (dialogueManager != null)
-        {
-            dialogueManager.LockPlayerMovement(false);
-        }
+        SceneManager.LoadScene(scenes); // Replace with your scene name
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
@@ -46,7 +39,7 @@ public class ConfirmationTriggerDialogue : MonoBehaviour
         }
     }
 
-    void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {

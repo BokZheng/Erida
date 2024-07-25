@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00328e3d317766b40965ccee644abab6, type: 3}
+  m_Name: TvDialogue
+  m_EditorClassIdentifier: 
+  entries:
+  - speakerName: TV
+    dialogueText: 'News Reporter: New reports have found, that families one by one
+      are missing! We don''t know the casue yet but the authorities are still investigating
+      this matter.'
+    typingSound: {fileID: 8300000, guid: 00ca612a0f0409b4d8479e9bf9f15d4f, type: 3}
+  - speakerName: TV
+    dialogueText: 'News Reporter: But! hopefully all ends well with the authorities
+      finding the ones behind this, and putting it all to an end! Now, on to the
+      next news....'
+    typingSound: {fileID: 8300000, guid: 00ca612a0f0409b4d8479e9bf9f15d4f, type: 3}
+  - speakerName: Timmy
+    dialogueText: Why are families dissapearing all of a sudden? There's no way one
+      family can't protect themselves from danger. Im sure they are all as strong
+      our family to do so!
+    typingSound: {fileID: 8300000, guid: e0e740bf85afefd40a86de388c603364, type: 3}
+  - speakerName: Timmy
+    dialogueText: Well, I shouldn't speak for myself  because i can't find Mama and
+      Papa now, im kind of getting worried...
+    typingSound: {fileID: 8300000, guid: e0e740bf85afefd40a86de388c603364, type: 3}

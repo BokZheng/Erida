@@ -69,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         PlayerWalk();
+        LockZRotation();
     }
  
     void PlayerWalk()
@@ -97,12 +98,11 @@ public class PlayerMovement : MonoBehaviour
         Vector2 movement = new Vector2(x, y).normalized * speed;
         myBody.velocity = movement;
     }
-
-
-
-    //anim.SetInteger("Speed", Mathf.Abs((int)myBody.velocity.x));
-
-
+    void LockZRotation()
+    {
+        Vector3 currentRotation = transform.rotation.eulerAngles;
+        transform.rotation = Quaternion.Euler(currentRotation.x, currentRotation.y, 0f);
+    }
 }
     
     

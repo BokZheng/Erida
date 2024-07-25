@@ -23,11 +23,23 @@ public class puzzle1onlvl1 : MonoBehaviour
         {
             ActivatePuzzle();
         }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            DeactivatePuzzle();
+        }
+    }
+    void DeactivatePuzzle()
+    {
+        Maincamera.gameObject.SetActive(true);
+        Puzzlecamera.gameObject.SetActive(false);
+        Mainpuzzle.SetActive(false );
     }
 
     void ActivatePuzzle()
     {
-
+        Maincamera.gameObject.SetActive(false);
+        Puzzlecamera.gameObject.SetActive(true);
+        Mainpuzzle.SetActive(true);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
