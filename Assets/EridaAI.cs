@@ -12,14 +12,13 @@ public class EridaAI : MonoBehaviour
     private Transform player;
     private NavMeshAgent agent;
     private int currentPatrolIndex;
-    private bool isChasing;
+    private bool isChasing = false;
 
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         agent = GetComponent<NavMeshAgent>();
         currentPatrolIndex = 0;
-        isChasing = false;
 
         if (patrolPoints.Length > 0)
         {

@@ -52,25 +52,39 @@ public class EridaDetection : MonoBehaviour
 
     private bool IsPlayerInSight(Transform player)
     {
-        // Calculate direction to player
+        // // Calculate direction to player
+        // Vector2 direction = (player.position - transform.position).normalized;
+        //
+        // // Draw the ray in the Scene view for debugging
+        // Debug.DrawRay(transform.position, direction * visionRange, Color.red);
+        //
+        // // Perform the raycast
+        // RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, visionRange, wallLayer);
+        //
+        // if (hit.collider != null)
+        // {
+        //     Debug.Log($"Raycast hit: {hit.collider.name}");
+        //     if (hit.collider.CompareTag("Player"))
+        //     {
+        //         Debug.Log("Player detected through raycast.");
+        //         return true;
+        //     }
+        // }
+        //
+        // return hit.collider == null; // Return true if no wall is hit
+        
         Vector2 direction = (player.position - transform.position).normalized;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, visionRange, playerLayer);
 
-        // Draw the ray in the Scene view for debugging
-        Debug.DrawRay(transform.position, direction * visionRange, Color.red);
+        if (hit.collider == null)
+            return false;
 
-        // Perform the raycast
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, visionRange, wallLayer);
-
-        if (hit.collider != null)
+        if (hit.collider.CompareTag("Player"))
         {
-            Debug.Log($"Raycast hit: {hit.collider.name}");
-            if (hit.collider.CompareTag("Player"))
-            {
-                Debug.Log("Player detected through raycast.");
-                return true;
-            }
+            Debug.Log("found player");
+            return true;
         }
-
-        return hit.collider == null; // Return true if no wall is hit
+        
+        return false;
     }
 }

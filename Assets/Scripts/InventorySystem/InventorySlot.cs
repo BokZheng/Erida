@@ -29,6 +29,9 @@ public class InventorySlot : MonoBehaviour
         item = newItem;
         if (item != null)
         {
+            
+            Debug.Log(item);
+            
             itemImage.sprite = item.icon; // Set item icon
             itemImage.enabled = true; // Ensure the image is enabled
             itemDescription.text = item.description; // Set item description
