@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LV1Dream.unity
     guid: f1001d898e8f02e4a8b2b7c554a1c735
+  - enabled: 1
+    path: Assets/Scenes/2FamilyRoom2.unity
+    guid: 08f8411551af1bf448a8db0ce273598f
   m_configObjects: {}
