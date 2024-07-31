@@ -30,6 +30,7 @@ public class TriggerDialogueWithoutE : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Destroy(gameObject);
             isPlayerInRange = false;
             dialogueTriggered = false; // Reset trigger status when player exits
         }

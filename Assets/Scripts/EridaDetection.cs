@@ -10,6 +10,9 @@ public class EridaDetection : MonoBehaviour
 
     private EridaAI enemyAI;
     private bool isChasing = false;
+    public AudioClip detectedClip;
+    public AudioSource detectedSound;
+    
 
     private void Start()
     {
@@ -40,6 +43,7 @@ public class EridaDetection : MonoBehaviour
         {
             Debug.Log("Player detected. Starting to chase.");
             enemyAI.StartChasing();
+            detectedSound.PlayOneShot(detectedClip);
             isChasing = true;
         }
         else if (!playerDetected && isChasing)
@@ -81,7 +85,7 @@ public class EridaDetection : MonoBehaviour
 
         if (hit.collider.CompareTag("Player"))
         {
-            Debug.Log("found player");
+            Debug.Log("Found player.");
             return true;
         }
         
